@@ -1,0 +1,26 @@
+{
+  "name": "wang-cube-circuit-simulator-user-manual",
+  "version": "1.0.0",
+  "description": "User manual for Wang cube circuit simulator, generated using vitepress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MathewKJ2048/Wang-cube-circuit-simulator-user-manual.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MathewKJ2048/Wang-cube-circuit-simulator-user-manual/issues"
+  },
+  "homepage": "https://github.com/MathewKJ2048/Wang-cube-circuit-simulator-user-manual#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
