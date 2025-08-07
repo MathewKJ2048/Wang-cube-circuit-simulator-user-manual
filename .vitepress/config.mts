@@ -4,6 +4,16 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "um",
   description: "um",
+  // Source directory
+  srcDir: './src',
+  
+  // Build output directory
+  outDir: './dist',
+  
+  // Base URL (adjust for deployment)
+  base: '/',
+
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

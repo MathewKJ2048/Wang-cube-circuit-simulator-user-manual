@@ -1,0 +1,39 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main] # or your default branch name
+
+jobs:
+  deploy:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: GitHub Pages 
+        run: |
+          git branch -f gh-pages HEAD
+          git checkout gh-pages
+          git config user.name "Github Pages"
+          git config user.email "GithubPagesOverwriter@users.noreply.github.com"
+          date > dist/publish_date.txt
+          git add --force dist
+          git commit -m "Automated publish"
+          git push -f origin `git subtree split -P dist`:refs/heads/gh-pages
+
+
+
+      
