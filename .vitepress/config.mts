@@ -11,7 +11,7 @@ export default defineConfig({
   outDir: './dist',
   
   // Base URL (adjust for deployment)
-  base: '/',
+  base: '/Wang-cube-circuit-simulator-user-manual/',
 
 
   themeConfig: {
