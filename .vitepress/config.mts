@@ -16,17 +16,20 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+   
 
     sidebar: [
       {
-        text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'Introduction', link: '/introduction'},
+          { text: 'Tile Types', link: '/tile-types'},
+          { text: 'Editing', link: '/editing'},
+          { text: 'View', link: '/view'},
+          { text: 'Simulation', link: '/simulation'},
+          { text: 'Load/Save', link: '/load-save'},
+          // { text: '', link: ''},
         ]
       }
     ],
