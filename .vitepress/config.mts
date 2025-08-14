@@ -2,10 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "um",
-  description: "um",
+  title: "User Manual",
+  description: "Wang cube circuit simulator user manual",
   // Source directory
-  srcDir: './src',
+  srcDir: './manual',
   
   // Build output directory
   outDir: './dist',
@@ -32,7 +32,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/MathewKJ2048/Wang-cube-circuit-simulator' }
     ]
   }
 })

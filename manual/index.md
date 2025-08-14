@@ -3,11 +3,10 @@
 layout: home
 
 hero:
-  name: "um"
-  text: "um"
-  tagline: My great project tagline
+  name: "Wang Cube Circuit Simulator"
+  tagline: A Users' Guide
   actions:
-    - theme: brand
+    - theme: alt
       text: Markdown Examples
       link: /markdown-examples
     - theme: alt
