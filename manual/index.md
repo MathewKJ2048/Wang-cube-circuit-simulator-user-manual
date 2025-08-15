@@ -13,8 +13,14 @@ hero:
       text: Tile Types
       link: /tile-types
     - theme: alt
-      text: Editing
-      link: /editing
+      text: Picker
+      link: /picker
+    - theme: alt
+      text: Tile Editor
+      link: /tile-editor
+    - theme: alt
+      text: Editor
+      link: /editor
     - theme: alt
       text: View
       link: /view
@@ -24,12 +30,6 @@ hero:
     - theme: alt
       text: Load/Save
       link: /load-save
-    - theme: alt
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
 
 features:
   - title: Open-source
@@ -37,6 +37,6 @@ features:
   - title: Cross-platform
     details: Written in vanilla typescript, allowing any web-browser to run it.
   - title: Pre-built elements
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Common circuit elements like logic gates, clocks, wires, et cetera
 ---
 

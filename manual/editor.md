@@ -1,6 +1,6 @@
-# Editing
+# Editor
 
-All buttons that edit the main tiling are present in the upper left corner of the centre pane. The editor is modal, with five modes. The first four modes (in order of trigger buttons, left to right) are:
+All buttons that edit the main tiling are present in the upper left corner of the centre pane. The editor has five modes. The first four modes (in order of trigger buttons, left to right) are:
 
 - `default` - used to move via dragging the mouse and picking tile-types of tiles in the main tiling
 - `select` - used to select groups of tiles in the main tiling for other operations

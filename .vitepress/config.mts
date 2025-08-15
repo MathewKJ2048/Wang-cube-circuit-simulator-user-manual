@@ -25,7 +25,7 @@ export default defineConfig({
           { text: 'Tile Types', link: '/tile-types'},
           { text: 'Picker', link: '/picker'},
           { text: 'Tile Editor', link: '/tile-editor'},
-          { text: 'Editor', link: '/editing'},
+          { text: 'Editor', link: '/editor'},
           { text: 'View', link: '/view'},
           { text: 'Simulation', link: '/simulation'},
           { text: 'Load/Save', link: '/load-save'},
