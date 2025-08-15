@@ -1,0 +1,1 @@
+import{_ as t,c as o,o as i,ae as r}from"./chunks/framework.Bzj5L_M9.js";const u=JSON.parse('{"title":"Picker","description":"","frontmatter":{},"headers":[],"relativePath":"picker.md","filePath":"picker.md"}'),a={name:"picker.md"};function s(l,e,c,n,p,d){return i(),o("div",null,e[0]||(e[0]=[r("",8)]))}const b=t(a,[["render",s]]);export{u as __pageData,b as default};

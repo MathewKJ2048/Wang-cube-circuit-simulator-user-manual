@@ -1,0 +1,1 @@
+import{_ as t,c as o,o as i,ae as r}from"./chunks/framework.Bzj5L_M9.js";const m=JSON.parse('{"title":"View","description":"","frontmatter":{},"headers":[],"relativePath":"view.md","filePath":"view.md"}'),a={name:"view.md"};function n(d,e,s,l,c,h){return i(),o("div",null,e[0]||(e[0]=[r("",4)]))}const p=t(a,[["render",n]]);export{m as __pageData,p as default};

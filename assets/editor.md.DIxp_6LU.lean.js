@@ -1,0 +1,1 @@
+import{_ as t,c as o,o as i,ae as l}from"./chunks/framework.Bzj5L_M9.js";const u=JSON.parse('{"title":"Editor","description":"","frontmatter":{},"headers":[],"relativePath":"editor.md","filePath":"editor.md"}'),a={name:"editor.md"};function r(c,e,n,d,s,h){return i(),o("div",null,e[0]||(e[0]=[l("",9)]))}const f=t(a,[["render",r]]);export{u as __pageData,f as default};
