@@ -21,14 +21,16 @@ export default defineConfig({
     sidebar: [
       {
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
           { text: 'Introduction', link: '/introduction'},
           { text: 'Tile Types', link: '/tile-types'},
-          { text: 'Editing', link: '/editing'},
+          { text: 'Picker', link: '/picker'},
+          { text: 'Tile Editor', link: '/tile-editor'},
+          { text: 'Editor', link: '/editing'},
           { text: 'View', link: '/view'},
           { text: 'Simulation', link: '/simulation'},
           { text: 'Load/Save', link: '/load-save'},
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' },
           // { text: '', link: ''},
         ]
       }

@@ -1,8 +1,10 @@
 # Loading and Saving Wang files
 
-## Sync and Reset
+## Sync
 
 The Wang-file contains a cached tiling, that copies the state of the main tiling every time the `sync` button at the top-right panel in the center pane is pressed. If the `sync` button is disabled, the cached tiling perfectly mirrors the state of the main tiling.
+
+## Reset
 
 The `reset` button located near the `sync` button returns the state of the main tiling to that of the cached tiling. The `reset` button can be used to return to the last synced point of the simulation, in case the simulation leads to a dead-end.
 
