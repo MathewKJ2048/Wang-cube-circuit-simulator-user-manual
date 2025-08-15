@@ -23,5 +23,5 @@ The three buttons in the bottom right group (in order from left to right) are:
 - `flip` button - performs a similar action as above, but mirrors horizontally
 
 ::: warning
-The actions performed by these buttons are permanent and irreversible.
+The actions performed by these buttons change the set of tile types of the whole Wang file. Previous states of this set are not recorded
 :::

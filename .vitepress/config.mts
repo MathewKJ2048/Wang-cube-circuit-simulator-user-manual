@@ -28,9 +28,7 @@ export default defineConfig({
           { text: 'Editor', link: '/editor'},
           { text: 'View', link: '/view'},
           { text: 'Simulation', link: '/simulation'},
-          { text: 'Load/Save', link: '/load-save'},
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'Load/Save', link: '/load-save'}
           // { text: '', link: ''},
         ]
       }
